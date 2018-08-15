@@ -22,9 +22,9 @@ Let's go through each line in the first, configurable part:
 blog:
   title                      : dactl
   description                : >
-                               this should contain a proper description
+                               Individual thoughts and opinions -
 # Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
+  logo_path                  : "assets/img/wisemind.svg" # path to logo file
   search_path                : # "yourgitusername.github.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
@@ -39,19 +39,19 @@ load_google_fonts            : 'Rubik:400,400italic,700,700italic'
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : Tsatsi Mahase
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
-  twitter                   : twitter-user-name
-  github                    : github-user-name
-  youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
-  disqus                    : dactl # your disqus site name
-  google_analytics          : # 'UA-XXXXXXXX-X'
+  mail                      : tsatsi.mahase@gmail.com # change to your e-mail address
+  twitter                   : tsatsi_mahase
+  github                    : Tsatsi
+  youtube                   : channel/UCHZSkTC-Obkyf7xAKVnFWXQ
+  stackoverflow             : users/3356520/tsatsi-mahase
+  disqus                    : tsatsimahase # your disqus site name
+  google_analytics          : 'UA-123977959-1' # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
   photo2x                   : "uploads/me.png"
 
-baseurl                      : "/dactl/" # the subpath of your site, e.g. /blog/, set to '' in case of hosting on GitHub pages
+baseurl                      : "https://tsatsi.github.io" # the subpath of your site, e.g. /blog/, set to '' in case of hosting on GitHub pages
                                   # i.e. `http://<username>.github.io`
 url                          : "" # the base hostname & protocol for your site
 ~~~

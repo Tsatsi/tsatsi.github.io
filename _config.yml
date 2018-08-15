@@ -7,7 +7,7 @@ url                          : "https://tsatsi.github.io" # the base hostname & 
 blog:
   title                      : WiseMind
   description                  : >
-                               this should contain a proper description
+                              Individual thoughts and opinions -
 
 # Layout configuration
   logo_path                  : "assets/img/wisemind.svg" # path to logo file
@@ -28,13 +28,13 @@ blog:
 author:
   fullname                  : Tsatsi Mahase
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : tsatsi.mahase@email.com # change to your e-mail address
+  mail                      : tsatsi.mahase@gmail.com # change to your e-mail address
   twitter                   : tsatsi_mahase
   github                    : Tsatsi
   youtube                   : channel/UCHZSkTC-Obkyf7xAKVnFWXQ
   stackoverflow             : users/3356520/tsatsi-mahase
   disqus                    : tsatsimahase # your disqus site name
-  google_analytics          : # 'UA-XXXXXXXX-X'
+  google_analytics          : 'UA-123977959-1' # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
   photo2x                   : "uploads/me.png"
 
