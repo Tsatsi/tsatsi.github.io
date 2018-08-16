@@ -23,7 +23,7 @@ DNA is never empty or there’s no DNA at all.
 
 To solve this problem one might take this approach:
 
-``` javascript
+~~~ javascript
 var result = '';
 function getDNAStrand(dna) {
     for( var i = 0;    i < dna.length;    i++ ){
@@ -35,7 +35,7 @@ function getDNAStrand(dna) {
     }
   return result;
 }
-```
+~~~
 
 
 This example uses a lot of if-else statements and mutates the result variable to get to the final answer. The problem with this approach is that it can lead to incorrect results.
@@ -46,7 +46,7 @@ i.e they rely soley on their arguments
 
 The first move towards getting getDNAStrand to be a pure function would be:
 
-``` javascript
+~~~ javascript
 function getDNAStrand(dna) {
   var result = '';
     for( var i = 0;    i < dna.length;    i++ ){
@@ -58,24 +58,24 @@ function getDNAStrand(dna) {
     }
   return result;
 }
-```
+~~~
 
 result has been moved into the getDNAStrand function and can only be changed within the function. Given the same input getDNAStrand will return the same output without any observable side effects. But we can take this a step further. Remember functional programs do not have mutable state or values, but result still remains mutable within getDNAStrand.
 
 A more functional approach would look like this:
 
-``` javascript
+~~~ javascript
 function DNAStrand(dna){
     const complements = {A: 'T', T: 'A', C: 'G', G: 'C'}
     return dna.split('').map( x => complements[x]).join('')
 }
-```
+~~~
 
 The philosophy of functional programming suggests that side effects are a primary cause of incorrect behavior. But this does not mean we are forbidden to use them but rather, we want to contain them and use them in a controlled way.
 
 Using pure functions enables us to cache inputs using an optimization technique called memoization. Memoisation speeds computer programs by storing expensive function calls and returning the cached results when the same input occurs again.
 
-``` javascript
+~~~ javascript
 var dnaStrand = memoize(DNAStrand);
 
 dnaStrand('AATT')
@@ -92,4 +92,4 @@ var memoize = function(f){
             return cache[arg_str];
         }
 }
-```
+~~~
