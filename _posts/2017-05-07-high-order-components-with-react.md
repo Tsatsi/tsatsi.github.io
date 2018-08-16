@@ -23,7 +23,7 @@ Why High order components are useful.
 Components are a unit of reuse in react  but some patterns of component reuse are not straightforward.
 suppose we have two components that should only get displayed when authentication is successful.
 
-{% highlight ruby %}
+{% highlight javascript %}
 import React, {Component} from 'react'
 import Auth from '../utils/AuthService'
 import DashboardDetails from '../components/layout'
@@ -57,7 +57,7 @@ export default Dashboard
 
 Then add the second component which follows a similar pattern which requires authentication and displays loading while authentication is not comfirmed.
 
-{% highlight ruby %}
+{% highlight javascript %}
 import React, {Component} from 'react'
 import Auth from '../utils/AuthService'
 import ProfileDetails from '../components/ProfileDetails'
@@ -94,7 +94,7 @@ on componentDidMount we check whether a user is loggedIn. If the user is logged 
 When the application grows this pattern can lead to a lot of duplication. We need to abstract the logic in one place and share it across components.
 This is where high order components become useful. We can write a high order component that receives a child component which requires authentication as one of its arguments.
 
-{% highlight ruby %}
+{% highlight javascript %}
 
 import React, {Component} from 'react'
 import AuthService from '.utils/AuthService'
@@ -132,7 +132,7 @@ The HOC should not mutate the components props in any way.
 
 The dashboard component would be changed to :
 
-{% highlight ruby %}
+{% highlight javascript %}
 import React, {Component} from 'react'
 import DashboardDetails from '../components/layout'
 import withAuth from '../components/withAuth'
@@ -148,7 +148,7 @@ export default withAuth(Dashboard)
 {% endhighlight %}
 The profile component would be changed to :
 
-{% highlight ruby %}
+{% highlight javascript %}
 import React, {Component} from 'react'
 import DashboardDetails from '../components/layout'
 import withAuth from '../components/withAuth'
