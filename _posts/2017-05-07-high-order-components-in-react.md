@@ -3,11 +3,14 @@ layout: post
 title:  "High order components in react"
 date:   2017-05-07 12:13:23 +0200
 categories: reactjs update
+hero: "assets/img/react.png"
+overlay: blue
 ---
 High order component (HOC) is a technique in react for reusing component logic.
 HOCs are not part of the React API.
 They are a pattern that emerges from react’s compositional nature.
-
+{: .lead}
+<!–-break-–>
 a HOC function takes a component and returns a new component
 
 

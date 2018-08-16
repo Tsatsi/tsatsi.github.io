@@ -3,11 +3,13 @@ layout: post
 title:  "Introduction to functional programming with javascript part 1"
 date:   2016-12-14 00:00:00 +0200
 categories: functional programming
+hero: "assets/img/functionaljs.png"
+overlay: red
+published: true
 ---
-After Spending some time reading Dr Frisby Most adequate guide to functional programming I thought I should write a blog to summarize my understanding of the concepts presented especially seeing how foreign some of them were to me.
-
-So what is it that we are after when we write programs in a functional way?
-
+After Spending some time reading Dr Frisby Most adequate guide to functional programming I thought I should write a blog to summarize my understanding of the concepts presented especially seeing how foreign some of them were to me. So what is it that we are after when we write programs in a functional way?
+{: .lead}
+<!–-break-–>
 functional programming is governed by general programming principles such as YAGNI(ya ain’t gonna need it), DRY(don’t repeat yourself) and SOLID principles. Functions are treated as first class citizens, that is to say they are treated just like everyone else or other data types. They can be passed as parameters, stored in arrays or assigned as variables.
 
 To understand how functional programming differs from other styles of programming we will go through some examples and see how it helps improve code.

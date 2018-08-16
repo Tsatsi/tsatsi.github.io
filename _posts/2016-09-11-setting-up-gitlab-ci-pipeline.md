@@ -3,11 +3,13 @@ layout: post
 title:  "Setting up Gitlab-CI pipeline"
 date:   2016-09-11 03:27:23 +0200
 categories: devops update
-hero: https://source.unsplash.com/collection/345758/
+hero: "assets/img/gitlab.png"
 overlay: orange
 ---
 So I recently had to set setup up a gitlab CI pipeline for a small React JS project I’m currently working on.
 In this post I will go over the steps I took in setting it up .
+{: .lead}
+<!–-break-–>
 
 ## Install Gitlab
 The first thing to do is to setup gitlab. I installed git lab using digital ocean’s [one click][one-click] install and deploy.
