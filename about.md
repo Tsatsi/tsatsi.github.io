@@ -20,7 +20,7 @@ published: true
 
 ## Tsatsi Mahase 
 
-I am an experienced software developer with a demonstrated history of working as a software consultant in banking, insurance and market research industry. I am skilled in Python, Clojure, Agile Methodologies, Javascript, and Mobile development. These are some of the technologies and methodologies I have experience in and will mostly be writting about on this blog, I do however need to emphasize that I identify myself as a problem solver and try as much as possible not to limit myself by the tools I use.
+I am an experienced software developer with a demonstrated history of working as a software consultant in banking, insurance and market research industry. I am skilled in Python, Clojure, Agile Methodologies, Javascript, and Mobile development. Though these are some of the technologies and methodologies I have experience in and will mostly be writting about on this blog, I do however need to emphasize that I identify myself as a problem solver and try as much as possible not to limit myself by the tools I use.
 
 ## Wise Mind
 
