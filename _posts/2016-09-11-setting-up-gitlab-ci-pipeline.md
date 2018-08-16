@@ -7,19 +7,16 @@ hero: "assets/img/gitlab.png"
 overlay: orange
 ---
 So I recently had to set setup up a gitlab CI pipeline for a small React JS project I’m currently working on.
-In this post I will go over the steps I took in setting it up .
+In this post I will go through the steps I took in setting it up .
 {: .lead}
 <!–-break-–>
 
 ## Install Gitlab
 The first thing to do is to setup gitlab. I installed git lab using digital ocean’s [one click][one-click] install and deploy.
- It is fairly straight forward and only requires following the setup wizard steps. 
- Another alternative is to use an instance hosted on [gitlab.com][gitlab] which has free options.
-
+It is fairly straight forward and only requires following the setup wizard steps. Another alternative is to use an instance hosted on [gitlab.com][gitlab] which has free options.
 
 ## Create Repo
-Once gitlab was  up and running I created a React JS repo using [Create React App][create-react-app]. Create React App 
-is a tool that let’s you start building your React JS app fast without having to worry much about the configurations.
+Once gitlab was  up and running I created a React JS repo using [Create React App][create-react-app]. Create React App is a tool that let’s you start building your React JS app fast without having to worry much about the configurations.
 
 To start using it, we first need to install it globally:
 
