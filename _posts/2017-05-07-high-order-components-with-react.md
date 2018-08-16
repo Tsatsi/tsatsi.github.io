@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "High order components in react"
+title:  "High order components with react"
 date:   2017-05-07 12:13:23 +0200
 categories: reactjs update
 hero: "assets/img/react.png"
