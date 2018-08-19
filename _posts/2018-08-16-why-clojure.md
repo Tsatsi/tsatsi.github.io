@@ -14,4 +14,4 @@ At my current company (Columinate at the time of writing) we write code in cloju
 {: .lead}
 <!–-break-–>
 
-In progress. should be done this week (19th August 2018).
+Clojure is a pragmatic dynamic language that endeavours to be a general purpose language that is suitable in areas where Java is suitable.It is opinionated and does not try to cover all the paradigms but instead provides the features needed to solve real-world problems.It allows developers to avoid the costs of maintaining a different infrastructure while leveraging existing libraries.
