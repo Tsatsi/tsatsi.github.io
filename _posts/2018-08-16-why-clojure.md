@@ -10,7 +10,7 @@ overlay: purple
 published: true
 
 ---
-At my current company (Columinate at the time of writing) we write code in Clojure and ClojureScript. I have often been asked the question “Why Clojure?”. I hope to answer this question with this blog post and to highlight some of the key reason for choosing Clojure.
+At my current company (Columinate at the time of writing) we write code in Clojure and ClojureScript. I have often been asked the question “Why Clojure?”. I hope to answer this question with this blog post and to highlight some of the key reasons for choosing Clojure.
 {: .lead}
 <!–-break-–>
 
