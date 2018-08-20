@@ -50,3 +50,5 @@ Clojure serves to be practical by not going for fancy solutions which make life 
 References:
 1. https://www.clojure.org/about/rationale
 2. http://www.drdobbs.com/architecture-and-design/the-clojure-philosophy/240150710
+3. https://www.braveclojure.com/
+4. https://www.manning.com/books/the-joy-of-clojure.
