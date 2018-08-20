@@ -10,7 +10,7 @@ overlay: purple
 published: true
 
 ---
-At my current company (Columinate at the time of writing) we write code in clojure and clojurescript. I have often been asked the question "Why clojure?". I hope to answer this question with this blog post and to highlight the pros and cons of opting for clojure.
+At my current company (Columinate at the time of writing) we write code in clojure and clojurescript. I have often been asked the question "Why clojure?". I hope to answer this question with this blog post and to highlight some of the key reason for choosing clojure.
 {: .lead}
 <!–-break-–>
 
@@ -37,4 +37,18 @@ Clojure was build with the following goals in mind:
 
 ![clojure-goals](../assets/img/clojure-goals.png)
 
+## Simplicity
 
+Clojure strives to enable us to tackle complexity involving a variety of data types, multiple concurrent threads etc. without adding incidental complexity.
+An example of incidental complexity is how object-oriented languages require that runnable code be packaged in classes, inheritance and type declarations.
+Clojure puts emphasis on simplicity by encouraging the use of built-in data structures and the usage of pure functions instead.
+
+## Freedom to focus
+Clojure keeps things simple, it has minimal syntax and does not require type declarations. It is expressive and is able to succintly perform highly complicated tasks without sacrificing comprehensibility.
+
+## Empowerment
+Clojure serves to be practical by not going for fancy solutions which make life difficult for developers. The decision to use the JVM is an example of this. Though the JVM has some disadvantages such as slow start time, it is also a practical platform because it is mature and widely used.
+
+References:
+https://www.clojure.org/about/rationale
+http://www.drdobbs.com/architecture-and-design/the-clojure-philosophy/240150710
