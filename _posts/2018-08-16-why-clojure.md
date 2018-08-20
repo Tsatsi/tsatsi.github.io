@@ -30,7 +30,7 @@ Clojure is a functional language with a dynamic emphasis, the benefits of this a
 
 The reason for taking advantage of established platforms is to avoid rebuilding the wheel and for this clojure uses the JVM. The JVM has  a proven track record, works across operating systems and is open.
 
-Clojure was build with the following goals in mind:
+Clojure was built with the following goals in mind:
 - Simplicity
 - Freedom to focus
 - Empowerment
