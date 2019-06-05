@@ -37,7 +37,7 @@ But sadly this way of thinking has limited me from seeing most projects I've sta
  - Consistently making small deliverables daily has a compounding effect benefit where what starts small will eventually be big.
  - Small deliverables enable us to fail small enough to recover and learn.
  - Being able to deliver regularly keeps us motivated.
- - Building small enables to get feedback early enough to know whether what we are building will work before investing too much into it.
+ - Building small enables us to get feedback early enough to know whether what we are building will work before investing too much into it.
  <!–-break-–>
  
 ## Conclusion
