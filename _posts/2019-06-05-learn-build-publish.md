@@ -31,7 +31,7 @@ But sadly this way of thinking has limited me from seeing most projects I've sta
  I have to admit starting small is not as easy or intuitive as I thought it would be.
  An example is this blog post, which I wrote while at lunch. There's a resistance within my perfectionist mind as I write  that's trying to justify why I need more time.
  To me starting small means publishing or delivering value daily. There's always a temptation to wait a few more days which then turn into weeks then the weeks into months and eventually the excitement fades and nothing gets done or you die.
- Publishing or delivering daily to me is understanding that each day counts and should have results. I use the word publish deliberately to imply that there has to be other people to witness your daily creations.
+ Publishing or delivering daily to me is understanding that each day counts and should have results. I use the word publish deliberately to imply that there has to be other people to witness your daily creations and publish in this context is not limited to writing.
  <!–-break-–>
 ### Benefits
  - Consistently making small deliverables daily has a compounding effect benefit where what starts small will eventually be big.
