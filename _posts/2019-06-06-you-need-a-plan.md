@@ -14,7 +14,7 @@ I recently took a decision to publish daily because I believe that doing so will
 The reason I mention this is because the commitment has made me realise I need a plan. 
 As much as I consider myself agile and flexible, there are times when I just don't have the words to say or write or don't feel like delivering or releasing any of my work and during those times it helps to have a plan.
 
-I am going to touch on two values from the manifesto which in my opinion seem to be the most misinterpreted.
+In this post I am going to touch on two values from the agile manifesto which in my opinion seem to be the most misinterpreted.
 <!–-break-–>
 
 ## Background
