@@ -16,11 +16,11 @@ Understanding how a language handles data is essential to using it in practice. 
 
 Type annotations can be used for clarity when declaring variables. However, this is not necessary if a variable has an initial value because Swift uses **Type Inference** to determine what type a variable or constant is based on the assigned value.
 {% highlight swift %}  
-    //exampleConstant cannot be changed
-    let exampleConstant = 30 //exampleConstant will be inferred as a type Integer
-    //exampleVariableInferred value is inferred but can only be changed to inferred type
-    let exampleVariableInferred = "This should should accept text"
-    //exampleVariable can be changed var exampleVariable:Int //exampleVariable is annotated as an Integer and will only store this type
+//exampleConstant cannot be changed
+let exampleConstant = 30 //exampleConstant will be inferred as a type Integer
+//exampleVariableInferred value is inferred but can only be changed to inferred type
+let exampleVariableInferred = "This should should accept text"
+//exampleVariable can be changed var exampleVariable:Int //exampleVariable is annotated as an Integer and will only store this type
 {% endhighlight %}
 
 # Type Safety
