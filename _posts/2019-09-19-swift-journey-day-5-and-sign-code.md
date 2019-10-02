@@ -7,7 +7,7 @@ tags:
   - swift
   
 hero: "assets/img/ayo-ogunseinde-sibVwORYqs0-unsplash.png"
-overlay:  blue
+overlay:  purple
 published: true
 
 ---
@@ -28,3 +28,8 @@ For more advanced usage such as creating signed builds through a continuous inte
 - Select a provisioning file/s that you intend to use to the sign app and ensure that the right type of profile is selected(development or production).
 - Download the the provision file locally then upload it to appcenter.
 - Select the certificate that is intended to be used  for code signing and ensure that the right certificate is selected(development or production).
+
+
+## Conclusion
+
+After a couple of days falling off the wagon, I managed to read this again. I think it was a bit rushed and will be getting back to it at a later stage.
