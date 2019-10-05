@@ -48,7 +48,7 @@ Range operators are common in other languages, I'm writing about them because I 
 
 ### Half-open range operator
 
-`(a..<b)` This defines a range that starts and includes a but doesn't include **b** that's why it's said to be half open.
+`(a..<b)` This defines a range that starts and includes **a** but doesn't include **b** that's why it's said to be half open.
 {% highlight swift %}  
     let rugbyGroups = ["pool-a", "pool-b", "pool-c", "pool-d"]
     let count = rugbyGroups.count
@@ -74,7 +74,7 @@ Range operators are common in other languages, I'm writing about them because I 
     //pool-d
 {% endhighlight %}
 
-`(..<b)` defines a range that from as far as possible and ends at **b** but without including it. This is a half-open one-side operator.
+`(..<b)` defines a range that starts from as far as possible and ends at **b** but without including it. This is a half-open one-side operator.
 {% highlight swift %}  
     for group in rugbyGroups[..<2] {
     	print(group)
